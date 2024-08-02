@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-app
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start
+    port: 3000
